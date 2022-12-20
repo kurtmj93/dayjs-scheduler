@@ -1,6 +1,8 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+
+// Note - this is short for $(document).ready()
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
@@ -21,8 +23,10 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
+  // dayjs.hour() gets 24-hour time by default. the more confusing part was how to grab the div id in 24 hour time
+
   $(".time-block").each(function() {
-    // this grabs the number following hour- in the class id
+    // split grabs the number following - in the class id, all characters following hour-
     let hour = $(this).attr('id').split('-')[1];
 
     if ( hour < dayjs().hour() ) {
