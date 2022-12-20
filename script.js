@@ -32,6 +32,8 @@ $(function () {
   $(".time-block").each(function() {
     $(this).find('textarea').text(localStorage.getItem($(this).attr('id')));
   });
-  
+
   // TODO: Add code to display the current date in the header of the page.
+
+  $('#currentDay').text(dayjs().format('dddd, MMMM D'));
 });
