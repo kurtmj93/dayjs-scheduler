@@ -1,17 +1,16 @@
 # Day.js Work Day Scheduler
-Module 5 Challenge - Day.js Work Day Scheduler
 
 ## Deployed Link
 
-Coming soon.
+[https://kurtmj93.github.io/dayjs-scheduler/](https://kurtmj93.github.io/dayjs-scheduler/)
 
 ## Screenshots
 
-Coming soon.
+![Screenshot](screeny.png "Screenshot")
 
 ## Description
 
-Submission for University of Richmond bootcamp Module 2 Challenge - developing a portfolio page from scratch.
+Submission for University of Richmond bootcamp Module 5 Challenge - Simple Work Day Scheduler using localStorage and the day.js library. Begun from starter code.
 
 ## User Story
 
